@@ -1,4 +1,5 @@
-nums = [1,3,5,6], target = 7
+const nums = [1,3,5,6]
+const target = 7
 
 const searchInsert = (nums: number[], target: number): number => {
     let begin = 0
