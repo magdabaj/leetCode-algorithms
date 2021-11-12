@@ -1,5 +1,4 @@
 function duplicateZeros(arr: number[]): void {
-    const length = arr.length
     let queue = []
 
     for(let i=0;i<arr.length; i++){
@@ -10,6 +9,5 @@ function duplicateZeros(arr: number[]): void {
             queue.push(arr[i])
         }
         arr[i] =queue.shift()
-
     }
 }
